@@ -8,7 +8,7 @@ nav {
 nav a:link {
     color: #000
 }
-#intro, h1 {
+#intro, .subtitle, h1 {
     text-align: center;
 }
 .Date, .Location {
