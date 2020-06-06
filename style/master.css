@@ -1,0 +1,28 @@
+/* CSS Document */
+nav {
+    font:Arial, sans-serif;
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+}
+nav a:link {
+    color: #000
+}
+#intro, h1 {
+    text-align: center;
+}
+.Date, .Location {
+    float:right;
+    width:33%;
+    text-align: right;
+}
+.Subpoint {
+    color: grey
+}
+#My_Work > ul > li {
+    color: solid black;
+    list-style-type:none;
+}
+.general_info {
+    text-align: center;
+}
