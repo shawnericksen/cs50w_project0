@@ -38,3 +38,8 @@ nav a:link {
     width: 50%;
     display: inline-block;
 }
+
+#Contact {
+    display: flex;
+    flex-wrap: wrap;
+}
