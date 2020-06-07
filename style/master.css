@@ -38,3 +38,15 @@ nav a:link {
     width: 50%;
     display: inline-block;
 }
+
+.Contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contact > div {
+    width: auto;
+    margin: 10px;
+}
