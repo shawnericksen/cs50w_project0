@@ -9,23 +9,17 @@
     <meta name="veiwport" content="width=device-width, initial scale = 1.0">
     <title>Shawn Ericksen - My Work</title>
     <link rel="stylesheet" href="style/master.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-        $(function () {
-            $('#header').load('reuseheader.html');
-        });
-    </script>
-    <script>
-        $(function () {
-            $('#footer').load('reusefooter.html');
-        });
-    </script>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <div id="header"></div>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="work.html">My Work</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+            <hr>
         </header>
         <main>
             <article>
@@ -91,7 +85,13 @@
             </article>
         </main>
         <footer>
-            <div id=footer></div>
+            <section class="Contact">
+                <h1>Contact</h1>
+                <p class="general_info"> <a
+                        href="mailto:shawn.ericksen@stonybrook.edu">shawn.ericksen@stonybrook.edu</a> | (479)
+                    426-2479 |
+                    <a href="https://linkedin.com/in/shawnericksen">Linkedin.com/in/shawnericksen</a></p>
+            </section>
         </footer>
     </div>
 </body>
