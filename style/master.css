@@ -1,52 +1,53 @@
 /* CSS Document */
-
 nav {
-    font: Arial, sans-serif;
-    color: grey;
-    text-align: center;
-    font-weight: bold;
+  font: Arial, sans-serif;
+  color: grey;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav a:link {
-    color: #000
+  color: #000;
 }
 
 #intro, .subtitle, h1, h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .Date, .Location {
-    float: right;
-    width: 33%;
-    text-align: right;
+  float: right;
+  width: 33%;
+  text-align: right;
 }
 
 .Subpoint {
-    color: grey
+  color: grey;
 }
 
-#My_Work>ul>li {
-    color: solid black;
-    list-style-type: none;
+#My_Work > ul > li {
+  color: solid black;
+  list-style-type: none;
 }
 
 .general_info {
-    text-align: center;
+  text-align: center;
 }
 
 .project {
-    width: 50%;
-    display: inline-block;
+  width: 50%;
+  display: inline-block;
 }
 
 .Contact {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Contact > div {
-    width: auto;
-    margin: 20px;
+  width: auto;
+  margin: 20px;
 }
+
+/*# sourceMappingURL=master.css.map */
