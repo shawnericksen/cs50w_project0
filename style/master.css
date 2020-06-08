@@ -14,13 +14,13 @@ nav a:link {
   text-align: center;
 }
 
-.Date, .Location {
+.Location, .Date {
   float: right;
   width: 33%;
   text-align: right;
 }
 
-.Subpoint {
+.Location {
   color: grey;
 }
 
@@ -44,8 +44,7 @@ nav a:link {
   display: flex;
   flex-wrap: wrap;
 }
-
-.Contact > div {
+.Contact div {
   width: auto;
   margin: 20px;
 }

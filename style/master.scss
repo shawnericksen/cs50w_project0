@@ -1,8 +1,9 @@
 /* CSS Document */
+$color: grey;
 
 nav {
     font: Arial, sans-serif;
-    color: grey;
+    color: $color;
     text-align: center;
     font-weight: bold;
 }
@@ -15,14 +16,19 @@ nav a:link {
     text-align: center;
 }
 
-.Date, .Location {
+%detail {
     float: right;
     width: 33%;
     text-align: right;
 }
 
-.Subpoint {
-    color: grey
+.Date {
+    @extend %detail;
+}
+
+.Location {
+    @extend %detail;
+    color: $color;
 }
 
 #My_Work>ul>li {
@@ -44,9 +50,9 @@ nav a:link {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-}
 
-.Contact > div {
-    width: auto;
-    margin: 20px;
+    div {
+        width: auto;
+        margin: 20px;
+    }
 }
