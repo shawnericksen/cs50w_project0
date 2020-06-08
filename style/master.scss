@@ -24,10 +24,18 @@ nav a:link {
 
 .Date {
     @extend %detail;
+    font-weight: normal;
 }
 
 .Location {
     @extend %detail;
+}
+
+.what {
+    font-weight: bold;
+}
+
+.where {
     color: $color;
 }
 
@@ -52,7 +60,6 @@ nav a:link {
     flex-wrap: wrap;
 
     div {
-        width: auto;
-        margin: 20px;
+        text-align: center;
     }
 }

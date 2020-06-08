@@ -20,7 +20,15 @@ nav a:link {
   text-align: right;
 }
 
-.Location {
+.Date {
+  font-weight: normal;
+}
+
+.what {
+  font-weight: bold;
+}
+
+.where {
   color: grey;
 }
 
@@ -45,8 +53,7 @@ nav a:link {
   flex-wrap: wrap;
 }
 .Contact div {
-  width: auto;
-  margin: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=master.css.map */
