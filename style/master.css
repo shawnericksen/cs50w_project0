@@ -10,7 +10,10 @@ nav a:link {
   color: #000;
 }
 
-#intro, .subtitle, h1, h3 {
+#intro,
+.subtitle,
+h1,
+h3 {
   text-align: center;
 }
 
@@ -54,6 +57,23 @@ nav a:link {
 }
 .Contact div {
   text-align: center;
+}
+
+.biopic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 991px) {
+  .biopic {
+    width: 50%;
+  }
+}
+@media (max-width: 990px) {
+  .biopic {
+    width: 66%;
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
